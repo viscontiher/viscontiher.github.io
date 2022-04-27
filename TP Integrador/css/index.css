@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+     scroll-padding-top: 15vh;
+}
+.nav{
+    width: 100%;
+    height: 15vh;
+    background-color:#353a40 ;
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+.cabecero-iz{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.logo{
+    width: 90px;
+    
+    margin-left: 2em;
+}
+.titulo-logo{
+    color: white;
+    font-size: larger;
+}
+.lista{
+    width: calc(100% - 20%);
+    display: flex;
+    justify-content: right !important;
+    font-size: medium;
+    align-items: center;
+    margin-right: 2em;
+}
+.lista ul{
+    display: flex;
+   
+}
+.lista li{
+    margin-right: 0.8em;
+}
+.lista span{
+    color: #989da0;
+}
+.lista span:hover{
+    color: white;
+    transition: 0.5s;
+}
+.verde-nav{
+    color:#2da645 !important; ;
+}
+.verde-nav:hover{
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.portada{
+    background: url(/integrador/img/museo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+}
+.oscuridad{
+    width: 100%;
+    min-height: 85vh;
+    background-color:rgba(0, 0, 0, 0.486); 
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.encabezado{
+    width: 37%;
+    height: 30vh;
+    text-align: right;
+    margin-right: 6em;
+    color: white;
+}
+.boton-portada{
+    margin-left: 1.5em;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.4em;
+}
+.transparente{
+    border: 1px solid white;
+}
+.transparente:hover{
+    background-color: #ffc800;
+    border: none;
+    color: black;
+}
+.verde{
+    background-color:#29a744 ;
+}
+.verde:hover{
+    background-color: #1d8d36;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 5em !important;
+}
+.titulo-centrado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0em 2em 0em;
+}
+.titulo-centrado span{
+    font-size: 0.85em;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #adabab;
+    width: calc(60%/3);
+    height: 80%;
+   
+    border-radius: 0.4em;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: 0 0 8px black;
+    transition: 0.5s;
+}
+.card-sup{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    min-height: 60%;
+
+}
+.card-inf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    overflow: hidden;
+}
+.aptitudes{
+    width: 100%;
+    margin: 0.5em 0em 0.5em 0em;
+}
+.aptitudes span{
+    margin-right: 0.5em;
+    padding: 0.2em 1em 0.2em 1em;
+    border-radius: 0.4em;
+    font-size: 0.8em;
+}
+.javascript{
+    background-color:#ffc208 ;
+}
+.reac{
+    background-color: #17a2b9;
+}
+.negocios{
+    background-color:#6d7580 ;
+}
+.startup{
+    background-color: #dc3546;
+}
+.text{
+    width: 95%;
+    font-size: 0.8em;
+}
+.steve{
+    background: url(/integrador/img/steve.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bill{
+    background: url(/integrador/img/bill.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ada{
+    background: url(/integrador/img/ada_lovelace.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+.buenos-aires{
+    width: 100%;
+    height: 70vh;
+    min-height: 70vh;
+    display: flex;
+    overflow: hidden;
+    margin-top: 2em;
+}
+.buenos-aires div{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.playa{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.descripcion-bs{
+    padding: 1em;
+    background-color:#353a40 ;
+    border-left: 1px solid white;
+    color: white;
+}
+.titulo-bs{
+    font-size: xx-large;
+}
+.sin-margen{
+    margin: 0;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    align-items: center;
+}
+.subrayado{
+    border-bottom: 2px dotted black !important;
+  
+}
+
+.formulario form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-top: 1em;
+}
+.formulario input{
+    width: calc(100% / 2.1);
+    height: 2.5em;
+    padding-left: 0.5em;
+    background: none;
+    border: 1px solid gainsboro;
+    border-radius: 0.4em;
+    outline: 0px;
+    margin-bottom: 1em;
+}
+.formulario input::placeholder{
+    font-size: larger;
+    padding-left: 1em;
+}
+.formulario textarea{
+    width: 98%;
+    height: 10em;
+    background: none;
+    border: 1px solid gainsboro;
+    border-radius: 0.4em;
+    outline: 0px;
+    margin-bottom: 1em;
+}
+.formulario textarea::placeholder{
+    font-size: xx-large;
+    padding-left: 1em;
+}
+.recuerda{
+    width: 98%;
+    display: flex;
+    justify-items: left;
+    color:#8a8a8a ;
+}
+.enviar{
+    width: 99% !important;
+    background-color:#96c93e !important ;
+    margin-top: 1em;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(to right,#1b3745, #2273a5) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p{
+    color: white;
+}
+footer ul{
+    display: flex;
+    color: white;
+}
+footer li{
+    margin: 1em;
+}
+footer li:hover{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+
+@media(max-width:1024px){
+    .nav{
+      
+       height: auto;
+        
+        display: flex;
+        gap: 20px;
+        position: sticky;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+       padding-top: 5px;
+       padding-bottom: 5px;
+    }
+    .cabecero-iz{
+        display: flex;
+        align-items: center;
+       width: auto;
+        height: 50%;
+    }
+    
+    
+    .lista{
+        width: auto;
+        display: flex;
+        justify-content: right !important;
+        font-size: medium;
+        align-items: center;
+        margin-right: 2em;
+        height: 50%;
+    }
+    .lista ul{
+        display: flex;
+        gap: 20px; flex-wrap: wrap;justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .encabezado{
+        width: 60%;
+        height: 50vh;
+        text-align: right;
+        margin-right: 6em;
+        color: white;
+    }
+    .contenido{
+        
+      width: 100%;
+      height: max-content !important;
+      
+    }
+    .tarjetas{
+        display: flex;
+       flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        min-height: 100%;
+        gap: 20px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #adabab;
+        width: 240px;
+        height: 400px;
+       
+        border-radius: 0.4em;
+        overflow: hidden;
+    }
+    .formulario form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        margin-top: 1em;
+    }
+    .formulario input{
+        width: calc(100% / 2.2);
+        height: 2.5em;
+        padding-left: 0.5em;
+        background: none;
+        border: 1px solid gainsboro;
+        border-radius: 0.4em;
+        outline: 0px;
+        margin-bottom: 1em;
+    }
+    .formulario input::placeholder{
+        font-size: larger;
+        padding-left: 1em;
+    }
+    .formulario textarea{
+        width: 98%;
+        height: 10em;
+        background: none;
+        border: 1px solid gainsboro;
+        border-radius: 0.4em;
+        outline: 0px;
+        margin-bottom: 1em;
+    }
+    .formulario textarea::placeholder{
+        font-size: xx-large;
+        padding-left: 1em;
+    }
+    .recuerda{
+        width: 98%;
+        display: flex;
+        justify-items: left;
+        color:#8a8a8a ;
+    }
+    .formulario p{
+       text-align: center;
+    }
+    .enviar{
+        width: 99% !important;
+        background-color:#96c93e !important ;
+        margin-top: 1em;
+        color: white;
+    }
+    .encabezado div{
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: right;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to right,#1b3745, #2273a5) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    footer p{
+        color: white;
+    }
+    footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+    footer li{
+        margin: 1em;
+    }
+    footer li:hover{
+        font-weight: bold;
+        border-bottom: 1px solid white;
+    }
+}
