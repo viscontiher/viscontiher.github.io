@@ -66,7 +66,7 @@ html{
     transition: 0.5s;
 }
 .portada{
-    background: url(/integrador/img/museo.jpg);
+    background: url(/tpintegrador/img/museo.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -187,17 +187,17 @@ html{
     font-size: 0.8em;
 }
 .steve{
-    background: url(/integrador/img/steve.jpg);
+    background: url(/tpintegrador/img/steve.jpg);
     background-size: cover;
     background-position: center;
 }
 .bill{
-    background: url(/integrador/img/bill.jpg);
+    background: url(/tpintegrador/img/bill.jpg);
     background-size: cover;
     background-position: center;
 }
 .ada{
-    background: url(/integrador/img/ada_lovelace.jpeg);
+    background: url(/tpintegrador/img/ada_lovelace.jpeg);
     background-size: cover;
     background-position: top;
 }
